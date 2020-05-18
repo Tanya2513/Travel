@@ -1,0 +1,210 @@
+.page {
+    width: 550px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.profile {
+
+}
+
+.header {
+    background-image: url("/img/map.jpg");
+    height: 270px;
+    background-position: center;
+    z-index: 5;
+    position: relative;
+    padding-top: 5%;
+}
+
+.personal-date {
+    z-index: 20;
+    background-color: #DCDCDC;
+    width: 180px;
+    height: 220px;
+    border-radius: 10%;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 19px;
+    padding-right: 15px;
+}
+
+.photo {
+    border-radius: 110px;
+    width: 110px;
+    height: 110px;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+.main-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+}
+
+.name {
+    display: inline-block;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.name img {
+    width: 16px;
+    height: 16px;
+}
+
+.quantity {
+    color: #000000;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.list-menu {
+    display: inline-block;
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 40px;
+}
+
+.item-menu {
+    padding: 0;
+    margin: 8px;
+}
+
+.item-menu li {
+    display: inline-block;
+    width: 24%;
+    margin-top: 0;
+    text-align: center;
+    border-right: #DCDCDC 2px solid;
+}
+
+.item-menu li:last-of-type {
+    border-right: none;
+}
+
+.item-menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.countries {
+    height: 40px;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.country {
+    border-radius: 40px;
+    width: 40px;
+    background-color: darkgreen;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.reaction {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.posts {
+
+}
+
+.post {
+    width: 100%;
+    min-height: 216px;
+    clear: both;
+    margin-top: 23px;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 22px 0px;
+    position: relative;
+    border-bottom: #DCDCDC 2px solid;
+}
+
+.border-picture {
+    height: 220px;
+    width: 300px;
+    position: relative;
+    padding-bottom: 40px;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 2px #E6E6E6;
+    /*transform: rotate(2.5deg);*/
+    margin-left: 20%;
+}
+
+.post img {
+    max-width: 100%;
+    position: absolute;
+    float: left;
+    width: 88%;
+    height: 75%;
+}
+
+.city-date {
+    color: black;
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 12%;
+}
+
+.post .description {
+    color: #4e4e4e;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.likes i {
+    font-size: 25px;
+    margin-left: 34px;
+    margin-top: 38px;
+    color: #cccccc;
+}
+
+.likes i:active {
+    color: #BEBEBE;
+}
+
+.comments {
+    font-size: 25px;
+    margin-left: 20%;
+    margin-top: -32px;
+    color: #cccccc;
+}
+
+.comments:active {
+    color: #BEBEBE;
+}
+
+.post .btn {
+    background-color: #E6E6E6;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    bottom: 27px;
+    position: absolute;
+    top: 90%;
+    left: 434px;
+    color: #4e4e4e;
+    font-size: 14px;
+}
+
+.post .btn:active {
+    background-color: #BEBEBE;
+}
+
+.country-card p{
+    text-align: justify;
+}
+
+.country-card h3{
+    text-align: center;
+}
